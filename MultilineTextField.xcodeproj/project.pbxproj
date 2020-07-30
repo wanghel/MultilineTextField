@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B82E55924D27C25009E8531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E55824D27C25009E8531 /* AppDelegate.swift */; };
+		3B82E55B24D27C25009E8531 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E55A24D27C25009E8531 /* SceneDelegate.swift */; };
+		3B82E55D24D27C25009E8531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E55C24D27C25009E8531 /* ContentView.swift */; };
+		3B82E55F24D27C27009E8531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B82E55E24D27C27009E8531 /* Assets.xcassets */; };
+		3B82E56224D27C27009E8531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B82E56124D27C27009E8531 /* Preview Assets.xcassets */; };
+		3B82E56524D27C27009E8531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B82E56324D27C27009E8531 /* LaunchScreen.storyboard */; };
+		3B82E57024D27C27009E8531 /* MultilineTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E56F24D27C27009E8531 /* MultilineTextFieldUITests.swift */; };
+		3B82E57D24D38FD3009E8531 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82E57C24D38FD3009E8531 /* MultilineTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B82E56C24D27C27009E8531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B82E54D24D27C25009E8531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B82E55424D27C25009E8531;
+			remoteInfo = MultilineTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B82E55524D27C25009E8531 /* MultilineTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultilineTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B82E55824D27C25009E8531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B82E55A24D27C25009E8531 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B82E55C24D27C25009E8531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B82E55E24D27C27009E8531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B82E56124D27C27009E8531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B82E56424D27C27009E8531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B82E56624D27C27009E8531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B82E56B24D27C27009E8531 /* MultilineTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultilineTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B82E56F24D27C27009E8531 /* MultilineTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextFieldUITests.swift; sourceTree = "<group>"; };
+		3B82E57124D27C27009E8531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B82E57C24D38FD3009E8531 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B82E55224D27C25009E8531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B82E56824D27C27009E8531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B82E54C24D27C25009E8531 = {
+			isa = PBXGroup;
+			children = (
+				3B82E55724D27C25009E8531 /* MultilineTextField */,
+				3B82E56E24D27C27009E8531 /* MultilineTextFieldUITests */,
+				3B82E55624D27C25009E8531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B82E55624D27C25009E8531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B82E55524D27C25009E8531 /* MultilineTextField.app */,
+				3B82E56B24D27C27009E8531 /* MultilineTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B82E55724D27C25009E8531 /* MultilineTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3B82E55824D27C25009E8531 /* AppDelegate.swift */,
+				3B82E55A24D27C25009E8531 /* SceneDelegate.swift */,
+				3B82E55C24D27C25009E8531 /* ContentView.swift */,
+				3B82E57C24D38FD3009E8531 /* MultilineTextField.swift */,
+				3B82E55E24D27C27009E8531 /* Assets.xcassets */,
+				3B82E56324D27C27009E8531 /* LaunchScreen.storyboard */,
+				3B82E56624D27C27009E8531 /* Info.plist */,
+				3B82E56024D27C27009E8531 /* Preview Content */,
+			);
+			path = MultilineTextField;
+			sourceTree = "<group>";
+		};
+		3B82E56024D27C27009E8531 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B82E56124D27C27009E8531 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B82E56E24D27C27009E8531 /* MultilineTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B82E56F24D27C27009E8531 /* MultilineTextFieldUITests.swift */,
+				3B82E57124D27C27009E8531 /* Info.plist */,
+			);
+			path = MultilineTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B82E55424D27C25009E8531 /* MultilineTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B82E57424D27C27009E8531 /* Build configuration list for PBXNativeTarget "MultilineTextField" */;
+			buildPhases = (
+				3B82E55124D27C25009E8531 /* Sources */,
+				3B82E55224D27C25009E8531 /* Frameworks */,
+				3B82E55324D27C25009E8531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultilineTextField;
+			productName = MultilineTextField;
+			productReference = 3B82E55524D27C25009E8531 /* MultilineTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B82E56A24D27C27009E8531 /* MultilineTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B82E57724D27C27009E8531 /* Build configuration list for PBXNativeTarget "MultilineTextFieldUITests" */;
+			buildPhases = (
+				3B82E56724D27C27009E8531 /* Sources */,
+				3B82E56824D27C27009E8531 /* Frameworks */,
+				3B82E56924D27C27009E8531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B82E56D24D27C27009E8531 /* PBXTargetDependency */,
+			);
+			name = MultilineTextFieldUITests;
+			productName = MultilineTextFieldUITests;
+			productReference = 3B82E56B24D27C27009E8531 /* MultilineTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B82E54D24D27C25009E8531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Helen Wang";
+				TargetAttributes = {
+					3B82E55424D27C25009E8531 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					3B82E56A24D27C27009E8531 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 3B82E55424D27C25009E8531;
+					};
+				};
+			};
+			buildConfigurationList = 3B82E55024D27C25009E8531 /* Build configuration list for PBXProject "MultilineTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B82E54C24D27C25009E8531;
+			productRefGroup = 3B82E55624D27C25009E8531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B82E55424D27C25009E8531 /* MultilineTextField */,
+				3B82E56A24D27C27009E8531 /* MultilineTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B82E55324D27C25009E8531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B82E56524D27C27009E8531 /* LaunchScreen.storyboard in Resources */,
+				3B82E56224D27C27009E8531 /* Preview Assets.xcassets in Resources */,
+				3B82E55F24D27C27009E8531 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B82E56924D27C27009E8531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B82E55124D27C25009E8531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B82E55924D27C25009E8531 /* AppDelegate.swift in Sources */,
+				3B82E55B24D27C25009E8531 /* SceneDelegate.swift in Sources */,
+				3B82E55D24D27C25009E8531 /* ContentView.swift in Sources */,
+				3B82E57D24D38FD3009E8531 /* MultilineTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B82E56724D27C27009E8531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B82E57024D27C27009E8531 /* MultilineTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B82E56D24D27C27009E8531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B82E55424D27C25009E8531 /* MultilineTextField */;
+			targetProxy = 3B82E56C24D27C27009E8531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B82E56324D27C27009E8531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B82E56424D27C27009E8531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B82E57224D27C27009E8531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B82E57324D27C27009E8531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B82E57524D27C27009E8531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MultilineTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = KN3W55FM6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MultilineTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hwang.MultilineTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B82E57624D27C27009E8531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MultilineTextField/Preview Content\"";
+				DEVELOPMENT_TEAM = KN3W55FM6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MultilineTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hwang.MultilineTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B82E57824D27C27009E8531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KN3W55FM6Y;
+				INFOPLIST_FILE = MultilineTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hwang.MultilineTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultilineTextField;
+			};
+			name = Debug;
+		};
+		3B82E57924D27C27009E8531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KN3W55FM6Y;
+				INFOPLIST_FILE = MultilineTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hwang.MultilineTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultilineTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B82E55024D27C25009E8531 /* Build configuration list for PBXProject "MultilineTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B82E57224D27C27009E8531 /* Debug */,
+				3B82E57324D27C27009E8531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B82E57424D27C27009E8531 /* Build configuration list for PBXNativeTarget "MultilineTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B82E57524D27C27009E8531 /* Debug */,
+				3B82E57624D27C27009E8531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B82E57724D27C27009E8531 /* Build configuration list for PBXNativeTarget "MultilineTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B82E57824D27C27009E8531 /* Debug */,
+				3B82E57924D27C27009E8531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B82E54D24D27C25009E8531 /* Project object */;
+}
