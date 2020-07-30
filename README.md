@@ -1,2 +1,2 @@
 # MultilineTextField
-MultilineTextField is a swift UITextView that functions like SwiftUI TextField, but supports multiple lines of text.
+MultilineTextField is a Swift UITextView that functions similiarly to SwiftUI's TextField, but additionally supports having multiple lines of text.
